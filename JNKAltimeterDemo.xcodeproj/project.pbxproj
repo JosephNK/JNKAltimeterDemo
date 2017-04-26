@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF515CE1EB0FE0E003CC4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515CD1EB0FE0E003CC4FC /* AppDelegate.swift */; };
+		6FF515D31EB0FE0F003CC4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF515D11EB0FE0F003CC4FC /* Main.storyboard */; };
+		6FF515D51EB0FE0F003CC4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF515D41EB0FE0F003CC4FC /* Assets.xcassets */; };
+		6FF515D81EB0FE0F003CC4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF515D61EB0FE0F003CC4FC /* LaunchScreen.storyboard */; };
+		6FF515E51EB1016C003CC4FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515E41EB1016C003CC4FC /* MainViewController.swift */; };
+		6FF515E71EB10184003CC4FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515E61EB10184003CC4FC /* MainView.swift */; };
+		6FF515E91EB10E25003CC4FC /* MainFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515E81EB10E25003CC4FC /* MainFrontView.swift */; };
+		6FF515EB1EB10E94003CC4FC /* MainBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515EA1EB10E94003CC4FC /* MainBackView.swift */; };
+		6FF515ED1EB11A34003CC4FC /* AltimeterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515EC1EB11A34003CC4FC /* AltimeterModel.swift */; };
+		6FF515F01EB1224B003CC4FC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF515EF1EB1224B003CC4FC /* CustomButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FF515CA1EB0FE0E003CC4FC /* JNKAltimeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNKAltimeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF515CD1EB0FE0E003CC4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF515D21EB0FE0F003CC4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF515D41EB0FE0F003CC4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF515D71EB0FE0F003CC4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF515D91EB0FE0F003CC4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF515E41EB1016C003CC4FC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6FF515E61EB10184003CC4FC /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6FF515E81EB10E25003CC4FC /* MainFrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFrontView.swift; sourceTree = "<group>"; };
+		6FF515EA1EB10E94003CC4FC /* MainBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBackView.swift; sourceTree = "<group>"; };
+		6FF515EC1EB11A34003CC4FC /* AltimeterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltimeterModel.swift; sourceTree = "<group>"; };
+		6FF515EF1EB1224B003CC4FC /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF515C71EB0FE0E003CC4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF515C11EB0FE0E003CC4FC = {
+			isa = PBXGroup;
+			children = (
+				6FF515CC1EB0FE0E003CC4FC /* JNKAltimeterDemo */,
+				6FF515CB1EB0FE0E003CC4FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF515CB1EB0FE0E003CC4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515CA1EB0FE0E003CC4FC /* JNKAltimeterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF515CC1EB0FE0E003CC4FC /* JNKAltimeterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515EE1EB1223C003CC4FC /* Component */,
+				6FF515E21EB1015F003CC4FC /* Models */,
+				6FF515E31EB1015F003CC4FC /* Views */,
+				6FF515E11EB1015F003CC4FC /* Controllers */,
+				6FF515CD1EB0FE0E003CC4FC /* AppDelegate.swift */,
+				6FF515D11EB0FE0F003CC4FC /* Main.storyboard */,
+				6FF515D41EB0FE0F003CC4FC /* Assets.xcassets */,
+				6FF515D61EB0FE0F003CC4FC /* LaunchScreen.storyboard */,
+				6FF515D91EB0FE0F003CC4FC /* Info.plist */,
+			);
+			path = JNKAltimeterDemo;
+			sourceTree = "<group>";
+		};
+		6FF515E11EB1015F003CC4FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515E41EB1016C003CC4FC /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6FF515E21EB1015F003CC4FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515EC1EB11A34003CC4FC /* AltimeterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FF515E31EB1015F003CC4FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515EA1EB10E94003CC4FC /* MainBackView.swift */,
+				6FF515E81EB10E25003CC4FC /* MainFrontView.swift */,
+				6FF515E61EB10184003CC4FC /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FF515EE1EB1223C003CC4FC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6FF515EF1EB1224B003CC4FC /* CustomButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF515C91EB0FE0E003CC4FC /* JNKAltimeterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF515DC1EB0FE0F003CC4FC /* Build configuration list for PBXNativeTarget "JNKAltimeterDemo" */;
+			buildPhases = (
+				6FF515C61EB0FE0E003CC4FC /* Sources */,
+				6FF515C71EB0FE0E003CC4FC /* Frameworks */,
+				6FF515C81EB0FE0E003CC4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNKAltimeterDemo;
+			productName = JNKAltimeterDemo;
+			productReference = 6FF515CA1EB0FE0E003CC4FC /* JNKAltimeterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF515C21EB0FE0E003CC4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JosephNK;
+				TargetAttributes = {
+					6FF515C91EB0FE0E003CC4FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EG55T24G59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FF515C51EB0FE0E003CC4FC /* Build configuration list for PBXProject "JNKAltimeterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF515C11EB0FE0E003CC4FC;
+			productRefGroup = 6FF515CB1EB0FE0E003CC4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF515C91EB0FE0E003CC4FC /* JNKAltimeterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF515C81EB0FE0E003CC4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF515D81EB0FE0F003CC4FC /* LaunchScreen.storyboard in Resources */,
+				6FF515D51EB0FE0F003CC4FC /* Assets.xcassets in Resources */,
+				6FF515D31EB0FE0F003CC4FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF515C61EB0FE0E003CC4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF515EB1EB10E94003CC4FC /* MainBackView.swift in Sources */,
+				6FF515E51EB1016C003CC4FC /* MainViewController.swift in Sources */,
+				6FF515ED1EB11A34003CC4FC /* AltimeterModel.swift in Sources */,
+				6FF515E71EB10184003CC4FC /* MainView.swift in Sources */,
+				6FF515F01EB1224B003CC4FC /* CustomButton.swift in Sources */,
+				6FF515E91EB10E25003CC4FC /* MainFrontView.swift in Sources */,
+				6FF515CE1EB0FE0E003CC4FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FF515D11EB0FE0F003CC4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF515D21EB0FE0F003CC4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF515D61EB0FE0F003CC4FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF515D71EB0FE0F003CC4FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF515DA1EB0FE0F003CC4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FF515DB1EB0FE0F003CC4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF515DD1EB0FE0F003CC4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EG55T24G59;
+				INFOPLIST_FILE = JNKAltimeterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JosephNK.JNKAltimeterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6FF515DE1EB0FE0F003CC4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EG55T24G59;
+				INFOPLIST_FILE = JNKAltimeterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JosephNK.JNKAltimeterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF515C51EB0FE0E003CC4FC /* Build configuration list for PBXProject "JNKAltimeterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF515DA1EB0FE0F003CC4FC /* Debug */,
+				6FF515DB1EB0FE0F003CC4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF515DC1EB0FE0F003CC4FC /* Build configuration list for PBXNativeTarget "JNKAltimeterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF515DD1EB0FE0F003CC4FC /* Debug */,
+				6FF515DE1EB0FE0F003CC4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF515C21EB0FE0E003CC4FC /* Project object */;
+}
